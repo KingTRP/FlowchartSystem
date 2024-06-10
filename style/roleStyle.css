@@ -1,0 +1,49 @@
+.role-img {
+    height: 200px;
+    width: 200px;
+    -webkit-user-drag: none;
+    /* ป้องกันการลากในเบราว์เซอร์ WebKit */
+    user-select: none;
+    /* ป้องกันการเลือกข้อความบนภาพ */
+}
+
+.btn-custom-animation {
+    transition: box-shadow 0.3s ease;
+    /* ให้มี transition เมื่อมีการเปลี่ยนแปลง box-shadow */
+}
+
+.btn-custom-animation:hover  {
+    box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.5);
+    /* เพิ่มเงาเมื่อปุ่มถูกกด */
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.vertical-line {
+    border-left: 2px solid black;
+    height: 200px;
+    /* ปรับความสูงของเส้น */
+    margin: 20px;
+    /* เพิ่มระยะห่างรอบๆ เส้น */
+}
+
+.login-bg {
+    background-color: #4E98B8;
+}
+
+.capacity {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.89);
+}

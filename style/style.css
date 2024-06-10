@@ -1,0 +1,238 @@
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button-round {
+    animation: buttonAnimation 0.3s ease-in-out;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.button-add {
+    height: 40px;
+    width: 40px;
+}
+
+.button-add img {
+    margin: 0;
+    padding: 0;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.logo {
+    background-size: contain;
+    height: 10%;
+    width: 10%;
+}
+
+.navbar {
+    background-color: #4E98B8;
+}
+
+.navbutton {
+    background-color: white;
+    border: none;
+}
+
+.flowform {
+    background-color: #fff3f3;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#process_row {
+    overflow: hidden;
+}
+
+#process_row input[type="number"] {
+    max-height: 41.6px;
+    overflow: hidden;
+}
+
+select {
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.process-data {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+.head-data-lane {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.head-data-process {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 0 0;
+}
+
+.head-data-name {
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.head-data-name-box {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-head {
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.date-time {
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.data-box {
+    background-color: #84BAC9;
+}
+
+.flowchart-table {
+    border-radius: 10px;
+}
+
+.button-column {
+    width: 200px;
+}
+
+.button-column button {
+    padding: 0px;
+}
+
+.table-head {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 800;
+    color: #4E98B8;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admin-Name {
+    color: #4E98B8;
+    font-size: 28px;
+    font-weight: 700;
+    border: 2px solid white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.decision_fields {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.process-field input[name="process[]"] {
+    width: 100%;
+    /* ปรับความกว้างตามที่ต้องการ */
+}
+
+.process-field input[name="after_manday[]"] {
+    width: 82%;
+    /* หรือความกว้างตามที่คุณต้องการ */
+}
+
+.sub-table {
+    width: 100%;
+    /* กำหนดความกว้างให้เต็มหน้าตาราง */
+}
+
+.symbol-image {
+    max-width: 100%;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}

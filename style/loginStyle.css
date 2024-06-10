@@ -1,0 +1,28 @@
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+.role-heading {
+    font-size: 46px;
+    color: #4E98B8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight:700;
+    /* You can adjust the shadow as needed */
+}
+.role-heading2 {
+    font-size: 36px;
+    color: #A8A8A8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight:700;
+    /* You can adjust the shadow as needed */
+}
